@@ -1,0 +1,10 @@
+project
+*.iml
+.idea
+node_modules
+dest
+*.MF
+.DS_Store
+reports
+.grunt
+test-output

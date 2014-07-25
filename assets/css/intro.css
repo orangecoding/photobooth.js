@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background: url("../img/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.logo {
+    font-family: 'Lato', serif;
+    font-size: 48px;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.first {
+    font-weight: bold;
+}
+
+.last {
+    font-weight: 100;
+    color: #0099ff;
+}
+
+.startPhotobooth {
+    display: block;
+    height: 30px;
+    margin: 150px auto 0;
+    width: 150px;
+    -moz-box-shadow: 0px 5px 20px #0099ff;
+    -webkit-box-shadow: 0px 5px 20px #0099ff;
+    box-shadow: 0px 5px 20px #0099ff;
+}

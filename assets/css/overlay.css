@@ -1,0 +1,24 @@
+#overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1000;
+    background-color: #000000;
+    opacity: .70;
+}
+
+#overlay div {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+#overlay a, a:visited{
+    text-decoration: none;
+}
