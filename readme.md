@@ -1,6 +1,6 @@
 Photobooth.JS
 =========
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) [![Build Status](https://travis-ci.org/orangecoding/photobooth.js.svg)](http://travis-ci.com/)
 
 Just one way how one could implement a nice Photobooth app for the web. 
 
@@ -44,6 +44,8 @@ Photobooth.JS uses a number of open source projects to work properly:
 * [Handlebars] - Templating engine
 * [Jasmine] - For testing purposes
 * [Node.Js] - While developing
+
+
 
 Installation
 --------------
