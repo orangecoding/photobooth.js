@@ -45,8 +45,6 @@ Photobooth.JS uses a number of open source projects to work properly:
 * [Jasmine] - For testing purposes
 * [Node.Js] - While developing
 
-
-
 Installation
 --------------
 
