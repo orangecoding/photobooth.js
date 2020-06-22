@@ -6,6 +6,7 @@ module.exports = function (grunt) {
         }, glob);
     };
     var proxyquire = require('proxyquireify');
+    var serveStatic = require('serve-static')
 
     grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
@@ -62,9 +63,7 @@ module.exports = function (grunt) {
                                     next();
                                 } ,
                                 // Serve static files.
-                                connect.static('dest'),
-                                // Make empty directories browsable.
-                                connect.directory('dest')
+                                serveStatic('dest'),
                             ]
                         }
                     }
@@ -75,7 +74,7 @@ module.exports = function (grunt) {
                     src: [ './assets/js/**/*.js' ],
                     dest: './dest/assets/js/bundle.js',
                     options: {
-                        bundleOptions: {
+                        browserifyOptions: {
                             require: expandFiles(['./assets/js/**/*.js'])
                         },
                         transform: ['browserify-handlebars']

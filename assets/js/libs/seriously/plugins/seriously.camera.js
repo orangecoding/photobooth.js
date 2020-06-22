@@ -20,10 +20,7 @@
 }(this, function (Seriously, undefined) {
 	'use strict';
 
-	var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia,
-
-	// detect browser-prefixed window.URL
-	URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
+	var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mediaDevices.getUserMedia;
 	Seriously.source('camera', function (source, options, force) {
 		var me = this,
 			video,
@@ -94,7 +91,7 @@
 				if (video.mozCaptureStream) {
 					video.mozSrcObject = stream;
 				} else {
-					video.src = (URL && URL.createObjectURL(stream)) || stream;
+					video.srcObject = stream;
 				}
 
 				if (video.readyState) {

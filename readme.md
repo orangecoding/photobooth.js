@@ -4,17 +4,19 @@ Photobooth.JS
 
 Just one way how one could implement a nice Photobooth app for the web. 
 
-  - Use a cool browser ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/chrome/chrome_24x24.png)  ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/firefox/firefox_24x24.png)
+  - Use Chrome
   - Apply a nice effect
   - Smile :) and take a photo
 
 Photobooth.JS has mainly been developed to play around with new stuff like WebRTC, Shaders, Browserify and the File-API. As it grew, I thought it would be a nice example project for others to learn. E.g. how to mock dependencies while testing Browserify modules...
 
-If you are interested in what I've learned, head over to my blog [http://www.orange-coding.net] [1] I'll post some articles about the issues I ran into within the near future...
+Try it out at [https://orange-coding.net/photobooth/](https://orange-coding.net/photobooth/)
 
 > Live as if you were to die tomorrow. Learn as if you were to live forever.
 ― Mahatma Gandhi
 
+##Note from 2020:
+This project has been created back in 2014. Even though, I've just recently upgraded the dependencies, the tech ued in here is obviously already obselte. (Well most of it). I'll still keep it on github for documentation purposes.
 
 Action
 -----------
@@ -91,7 +93,7 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Christian Kellner
+Copyright (c) 2020 Christian Kellner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
