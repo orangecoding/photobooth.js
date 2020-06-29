@@ -18,11 +18,6 @@ Try it out at [https://orange-coding.net/photobooth/](https://orange-coding.net/
 #### Note from 2020:
 This project has been created back in 2014. Even though, I've just recently upgraded the dependencies, the tech ued in here is obviously already obselte. (Well most of it). I'll still keep it on github for documentation purposes.
 
-Action
------------
-You wanna see Photobooth.JS in action?
-Head over to [Photobooth.JS][2]
-
 Technology
 -----------
 ##### General
